@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#pic {
+  float: left;
+  margin-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
